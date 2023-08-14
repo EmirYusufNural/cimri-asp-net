@@ -1,0 +1,53 @@
+@model List<cimri.entity.Product>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+         
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ProductName</th>
+                    <th>Price</th>
+                    <th>Url</th>
+                    <th>Resim</th>
+                    <th>Kategori</th>
+                    <th>Detay</th>
+                    <th></th>
+                    
+    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model)
+                {
+                <tr>
+                    
+                    <td>@item.ProductName</td>
+                    <td>@item.Price</td>
+                    <td></td>
+                    <td class="py-1">
+                        <img src="@item.Image" alt="image">
+                    </td>
+                    <td>@string.Join(", ", @item.Brands.Select(brand => brand.BrandName))</td>
+                    <td>
+                    <a asp-controller="cimri" asp-action="ProductDetails" asp-route-id="@item.Id" class="btn btn-sm btn-danger" >Detay</a>                
+                    </td>
+                    <td>
+                        <a asp-controller="cimri" asp-action="ProductUpdate"  asp-route-id="@item.Id" class="btn btn-sm btn-info">Güncelle</a>
+                        <a asp-controller="cimri" asp-action="ProductDelete" asp-route-id="@item.Id"  class="btn btn-sm btn-danger" >Sil</a>                
+                    </td>
+                </tr>
+
+                }
+                 <a asp-controller="cimri" asp-action="ProductAdd"  class="btn btn-sm btn-primary" >Ürün Ekle</a>                 
+
+                </tbody>
+        </table>
+    </body>
+    </html>
+       

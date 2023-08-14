@@ -1,0 +1,44 @@
+@model List<cimri.entity.Comment>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+         
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ürün</th>
+                    <th>Message</th>
+                    <th>Point</th>
+                    <th>Time</th>
+    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model)
+                {
+                <tr>
+                    <td>@item.Product.ProductName</td>
+
+                    <td>@item.Message</td>
+                    <td>@item.Point</td>
+                    <td>@item.Time</td>
+                
+                    <td>
+                        <a asp-controller="cimri" asp-action="CommentDelete" asp-route-id="@item.Id"  class="btn btn-sm btn-danger" >Sil</a>                
+                    </td>
+                </tr>
+
+                }
+                 <a asp-controller="cimri" asp-action="CommentAdd"  class="btn btn-sm btn-primary" >Yorum Ekle</a>
+
+            </tbody>
+    
+        </table>
+    </body>
+    </html>
+       

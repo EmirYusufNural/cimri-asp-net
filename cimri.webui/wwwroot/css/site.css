@@ -1,0 +1,357 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*$ NAVBAR CSS  */
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: __Inter_8ded55, __Inter_Fallback_8ded55;
+  display: block;
+  box-sizing: border-box;
+}
+
+html , body {
+  width: 100%;
+  height: 100%;
+}
+
+.topheader {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+
+.topheader-container {
+  display: flex;
+  justify-content: baseline;
+  padding: 0;
+}
+
+.cimri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  padding: 10px 16px 10px 0;
+  text-decoration: none;
+}
+
+.mobil-cimri-logo {
+  display: none;
+}
+
+.mobil-cimrimarket-logo {
+  display: none;
+}
+
+.altlik {
+  display: block;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+  width: 100%;
+  background-color: #0786e7;
+  height: 4px;
+  width: 100%;
+}
+
+
+.cimri-market {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 14px 0;
+  text-decoration: none;
+}
+
+.mobil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #364354;
+  cursor: pointer;
+  padding: 10px 16px 10px 0;
+}
+
+.mobil-indir {
+  margin-left: 4px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  width: 9rem;
+}
+
+.alt-container {
+  padding: 20px 0 16px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.alt-container-wrapper {
+  display: flex;
+}
+
+.sol-nav {
+  display: flex;
+}
+
+.cimri-icon {
+  margin-right: 48px;
+  display: flex;
+}
+
+.kategoriler {
+  display: flex;
+  height: auto;
+  margin-top: 12px;
+}
+
+.kategori-arrow {
+  display: flex;
+  margin-top: 12px;
+}
+
+.sag-nav {
+  display: flex;
+}
+
+.search-box:focus {
+  border: #0786e7;
+  border-radius: 4px 0 0 4px;
+}
+
+.searching {
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 24rem;
+  border: 2px solid #0786e7;
+  padding: 5px;
+  height: 48px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  margin-left: 24px;
+}
+
+.searchTerm:focus {
+  color: #0786e7;
+}
+
+.search-icon {
+  color: #ffffff;
+}
+
+.searchButton {
+  width: 5rem;
+  height: 48px;
+  border: 1px solid #0786e7;
+  background: #0786e7;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 38px;
+}
+
+.orta-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.arananlar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 24px;
+}
+
+.arananlar-yazi {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  color: #9aa1a9;
+  margin-right: 16px;
+}
+
+.icon-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.icon-button {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  min-height: 40px;
+  border: none;
+  background-color: #e6f3fd;
+  border-radius: 4px;
+}
+
+.nav-icon {
+  margin: 10px 0;
+}
+
+.nav-icon-a:hover {
+  text-decoration: none;
+
+}
+
+.nav-icon-a:hover .icon-button {
+  background-color: #0786e7;
+}
+
+.iconn {
+  color: #0786e7;
+}
+
+.nav-icon-a:hover .iconn {
+  color: #ffffff;
+}
+
+.icon-başlik {
+  margin-top: 8px;
+  height: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 991px) {
+  .mobil {
+    display: none;
+  }
+
+  .mobil-indir {
+    display: none;
+  }
+
+  .altlik {
+    display: none;
+  }
+
+  .topheader-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .arananlar {
+    display: none;
+  }
+
+  .sag-nav {
+    display: none;
+  }
+
+  .cimri-icon{
+    display: none;
+  }
+
+  .kategori-arrow {
+    display: none;
+  }
+
+  .kategoriler {
+    display:none;
+  }
+
+  .cimri {
+    width: 49%;
+    background-color: #0786e7;
+    height: 3rem;
+    border-radius: 4px;
+    border: 1px solid rgb(7,134,231);
+  }
+
+  .cimri-market {
+    width: 49%;
+    height: 3rem;
+    border: 1px solid #ebecee;
+    border-radius: 4px;
+  }
+
+  .cimrii {
+    display: none;
+  }
+
+  .mobil-cimri-logo {
+    display: flex;
+  }
+
+  .cimrii-markette {
+    display: none;
+  }
+
+  .mobil-cimrimarket-logo {
+    display: flex;
+  }
+
+  .searchButton {
+    display: none;
+  }
+
+  .searchTerm {
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: stretch;
+    width: 36rem;
+  }
+
+  .alt-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .searchTerm {
+    width: 24rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .searchTerm {
+    width: 18rem;
+  }
+}
+
+                    /*  NAVBAR CSS THE END  */

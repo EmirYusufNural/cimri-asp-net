@@ -1,0 +1,34 @@
+@model List<cimri.entity.Category>
+ 
+<table class="table table-bordered">
+    <thead>
+        <tr>
+           <th>Kategori Adı</th>
+           <th>Ürün Adı  Ve Marka Adı</th>
+           <th></th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+        <tr>
+            
+            <td>@item.CategoryName</td>
+            <td>
+            <a asp-controller="cimri" asp-action="CategoryDetails" asp-route-id="@item.Id" class="btn btn-sm btn-danger" >Detay</a>                
+            </td>
+            <td>
+                <a asp-controller="cimri" asp-action="CategoryUpdate"  asp-route-id="@item.Id" class="btn btn-sm btn-info">Güncelle</a>
+                <a asp-controller="cimri" asp-action="CategoryDelete" asp-route-id="@item.Id"  class="btn btn-sm btn-danger" >Sil</a>                
+            </td>
+         
+        </tr>
+
+        }
+       
+         <a asp-controller="cimri" asp-action="CategoryAdd"  class="btn btn-sm btn-primary" >kategori ekle</a>                
+         <a asp-controller="cimri" asp-action="BrandAdd"  class="btn btn-sm btn-danger"  >Marka Ekle</a> 
+
+    </tbody>
+</table>

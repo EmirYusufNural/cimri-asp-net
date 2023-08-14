@@ -1,0 +1,27 @@
+@model cimri.webui.Models.DescriptionModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <title>Document</title>
+</head>
+<body>
+    <form asp-controller="Cimri" asp-action="DescriptionUpdate" method="post">
+
+        <div class="mb-3">
+            <label class="form-label">Ozellikler</label>
+            <input asp-for="Text" class="form-control">
+            <input type="hidden" asp-for="EditId">
+
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+
+    </form>
+</body>
+</html>
+
+

@@ -1,0 +1,69 @@
+@model cimri.webui.Models.ProductModel
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body> 
+        <h2>Ürün Adı:  @Model.ProductName</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+               <th>Ürün özelllikleri</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                @foreach(var item in Model.Descriptions)
+                {
+                <tr>     
+                    <td>@item.Text</td>
+                </tr>
+                }
+            </tbody>
+        </table> 
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+               
+               <th>Yorum</th>
+               <th>Puan</th>
+               <th>Zaman</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.Comments)
+            {
+            <tr>     
+                <td>@item.Message</td>
+                <td>@item.Point</td>
+                <td>@item.Time</td>
+            </tr>
+            }
+        </tbody>
+    </table> 
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+               <th>Satıcı Adı</th>
+               <th></th>
+               <th></th>
+               <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.Shops)
+            {
+            <tr>     
+                <td>@item.ShopName</td>
+                <td>@item.webSite</td>
+                <td>@item.CargoInfo</td>
+                <td>@item.CargoTime</td>
+            </tr>
+            }
+        </tbody>
+    </table> 
+    </body>
+    </html>

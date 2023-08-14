@@ -1,0 +1,53 @@
+@model List<cimri.entity.Shop>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+     <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ShopName</th>
+                <th>webSite</th>
+                <th>Image</th>
+                <th>CargoInfo</th>
+                <th>CargoTime</th>
+                <th></th>
+                <th>Detay</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+                {
+                <tr>
+                    
+                    <td>@item.ShopName</td>
+                    <td>@item.webSite</td>
+                    <td class="py-1">
+                        <img src="@item.Image" alt="image">
+                    </td>
+                    <td>@item.CargoInfo</td>
+                    <td>@item.CargoTime</td>
+                    <td>
+                    <a asp-controller="cimri" asp-action="ShopDetails" asp-route-id="@item.Id" class="btn btn-sm btn-danger" >Detay</a>                
+                    </td>
+                    <td>
+                        <a asp-controller="cimri" asp-action="ShopUpdate"  asp-route-id="@item.Id" class="btn btn-sm btn-info">Güncelle</a>
+                        <a asp-controller="cimri" asp-action="ShopDelete" asp-route-id="@item.Id"  class="btn btn-sm btn-danger" >Sil</a>                
+                    </td>
+                </tr>
+
+                }
+                 <a asp-controller="cimri" asp-action="ShopAdd"  class="btn btn-sm btn-primary" >Satıcı KAYIT</a>                 
+            
+        </tbody>
+
+    </table>
+</body>
+</html>
+   

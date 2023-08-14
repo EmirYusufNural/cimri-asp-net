@@ -1,0 +1,41 @@
+@model List<cimri.entity.Brochure>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body> <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Url</th>
+                <th></th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+                {
+                <tr>
+                    
+                    <td>@item.Id</td>
+                    <td>@item.Url</td>
+                  
+                    <td>
+                        <a asp-controller="cimri" asp-action="BrochureUpdate"  asp-route-id="@item.Id" class="btn btn-sm btn-info">Güncelle</a>
+                        <a asp-controller="cimri" asp-action="BrochureDelete" asp-route-id="@item.Id"  class="btn btn-sm btn-danger" >Sil</a>                
+                    </td>
+                </tr>
+
+                }
+                 <a asp-controller="cimri" asp-action="BrochureAdd"  class="btn btn-sm btn-primary" >broşür ekle </a>                
+
+
+        
+
+        </tbody>
+        
+    </body>
+    </html>

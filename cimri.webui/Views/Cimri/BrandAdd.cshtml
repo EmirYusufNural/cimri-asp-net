@@ -1,0 +1,29 @@
+@model cimri.webui.Models.BrandModel
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <form asp-controller="Cimri" asp-action="BrandAdd" method="post">
+        <div class="mb-3">
+            <select asp-for="CategoryId">
+                @foreach (var item in Model.Categories)
+                {
+                        <option value="@item.Id">@item.CategoryName</option>
+                }
+            </select> 
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Marka Ismı</label>
+            <input asp-for="BrandName" class="form-control">
+        </div>
+        <!-- foreach -->
+
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </form>
+</body>
+</html>
+

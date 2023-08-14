@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cimri.webui", "cimri.webui\cimri.webui.csproj", "{FD8CFE9F-5A11-403D-8F6D-A13B8A237E62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cimri.entity", "cimri.entity\cimri.entity.csproj", "{C0EAE3B0-A96E-41F4-8FE5-0B36123C141E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD8CFE9F-5A11-403D-8F6D-A13B8A237E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8CFE9F-5A11-403D-8F6D-A13B8A237E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8CFE9F-5A11-403D-8F6D-A13B8A237E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8CFE9F-5A11-403D-8F6D-A13B8A237E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EAE3B0-A96E-41F4-8FE5-0B36123C141E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EAE3B0-A96E-41F4-8FE5-0B36123C141E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EAE3B0-A96E-41F4-8FE5-0B36123C141E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EAE3B0-A96E-41F4-8FE5-0B36123C141E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2863E38F-0A51-47B7-8DA5-A1557E6BDB26}
+	EndGlobalSection
+EndGlobal

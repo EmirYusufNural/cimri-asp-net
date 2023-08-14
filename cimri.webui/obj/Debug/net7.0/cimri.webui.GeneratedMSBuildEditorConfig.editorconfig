@@ -1,0 +1,157 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = cimri.webui
+build_property.RootNamespace = cimri.webui
+build_property.ProjectDir = C:\Users\Zeynep Aygün\Desktop\Cimri-AspNet\cimri.webui\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Zeynep Aygün\Desktop\Cimri-AspNet\cimri.webui
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/BrandAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQnJhbmRBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/BrandDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQnJhbmREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/BrandList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQnJhbmRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/BrandUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQnJhbmRVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/BrochureAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQnJvY2h1cmVBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/BrochureList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQnJvY2h1cmVMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/BrochureUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQnJvY2h1cmVVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/CategoryAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQ2F0ZWdvcnlBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/CategoryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/CategoryList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQ2F0ZWdvcnlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/CategoryUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQ2F0ZWdvcnlVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/CommentAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQ29tbWVudEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/CommentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcQ29tbWVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/DescriptionAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcRGVzY3JpcHRpb25BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/DescriptionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcRGVzY3JpcHRpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/DescriptionUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcRGVzY3JpcHRpb25VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/FavoriteItemList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcRmF2b3JpdGVJdGVtTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/ProductAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcUHJvZHVjdEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/ProductUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcUHJvZHVjdFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/ShopAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcU2hvcEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/ShopDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcU2hvcERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/ShopList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcU2hvcExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Cimri/ShopUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2ltcmlcU2hvcFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Shared/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Shared/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeynep Aygün/Desktop/Cimri-AspNet/cimri.webui/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3t8n7p3xyd

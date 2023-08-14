@@ -1,0 +1,32 @@
+@model cimri.webui.Models.ProductModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <form asp-controller="Cimri" asp-action="ProductUpdate" method="post">
+
+        <div class="mb-3">
+            <label  class="form-label">Ürün Adı</label>
+            <input asp-for="ProductName" class="form-control">
+            <input type="hidden" asp-for="EditId">
+
+        </div>
+        <div>
+            <label  class="form-label">Fiyat</label>
+            <input asp-for="Price" class="form-control">
+        </div>
+        <div>
+            <label  class="form-label">Ürün Url</label>
+            <input asp-for="Url" class="form-control">
+        </div>
+       
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+
+    </form>
+</body>
+</html>
